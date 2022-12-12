@@ -1,6 +1,8 @@
 :root {
   --branding-color: hwb(240 14% 6%);
   --secondary-color: #7cdcdc;
+  --third-color: #272142;
+  --contrast-color: aliceblue;
   --heading-font-family: 'Playfair Display', serif;
   --default-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -12,9 +14,22 @@ h1 {
   color: var(--branding-color);
 }
 
+h2 {
+  font-family: var(--heading-font-family);
+  font-weight:bold;
+  color: var(--third-color);
+}
+
 p {
   font-family: var(--default-font-family);
+  font-size: 16px;
   font-weight: normal;
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 .hero {
@@ -27,7 +42,7 @@ p {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
-  color: #272142
+  color: var(--third-color);
 }
 
 .hero h2 {
@@ -40,12 +55,25 @@ p {
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
-  color: aliceblue;
+  color: var(--contrast-color);
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
 }
 
 .btn-branding:hover {
+  color: var(--branding-color);
+}
+
+.btn-branding-outline {
+  background: var(--branding-color);
+  border-radius: 4px;
+  color: var(--contrast-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.btn-branding-outline:hover {
   color: var(--branding-color);
 }
