@@ -52,6 +52,10 @@ img {
   font-size: 24px;
 }
 
+.project-description {
+  border: 4px solid var(--secondary-color);
+}
+
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
@@ -76,4 +80,16 @@ img {
 
 .btn-branding-outline:hover {
   color: var(--branding-color);
+}
+
+@media (max-width:960px) {
+  h1 {
+    font-size: 44px;
+    line-height: 2;
+  }
+  
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
 }
