@@ -57,7 +57,7 @@ img {
 }
 
 .about-section {
-  padding: 160px 20px;
+  padding: 130px 20px;
 }
 
 .about-section h1 {
@@ -69,10 +69,6 @@ img {
 .about-section h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
-}
-
-.about-section-content {
-  margin: 30px;
 }
 
 .about-photo {
@@ -115,6 +111,10 @@ img {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+
+  .about-section-content {
+    margin: 30px;
   }
 
   .about-section {
