@@ -37,6 +37,10 @@ img {
   height: auto;
 }
 
+.active {
+  color: var(--branding-color);
+}
+
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
