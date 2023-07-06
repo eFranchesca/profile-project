@@ -171,7 +171,7 @@ footer .social-links a:hover {
   background-color: var(--contrast-color);
 }
 
-@media (max-width:960px) {
+@media (max-width:800px) {
   h1 {
     font-size: 44px;
     line-height: 2;
